@@ -1,0 +1,322 @@
+# COMPETENCY-BASED LEARNING MATERIAL (CBLM)
+
+---
+
+|  |  |
+|---|---|
+| **Qualification** | Generative AI Fundamentals |
+| **Unit of Competency** | Apply Prompt Engineering Techniques |
+| **Module Title** | Prompt Engineering Mastery |
+| **Unit Code** | 1.1.4 |
+| **Nominal Duration** | 12 Hours |
+| **Learner's Name** | _________________________ |
+| **Trainer's Name** | _________________________ |
+| **Date Started** | ___________ &nbsp;&nbsp; **Date Finished** | ___________ |
+
+---
+
+## HOW TO USE THIS COMPETENCY-BASED LEARNING MATERIAL
+
+Welcome to the module **Prompt Engineering Mastery**. This module builds on
+**UC1: Access Generative AI** and **UC2: Apply Generative AI and Automation**.
+
+The unit of competency *"Apply Prompt Engineering Techniques"* contains the
+knowledge, skills, and attitudes required for a learner to design, structure,
+and refine advanced prompts that produce reliable, high-quality AI outputs.
+
+You are required to go through a series of learning activities. If you have
+questions, please ask your trainer for assistance. Follow these steps:
+
+1. Read the **Information Sheets** and answer the **Self-Checks**.
+2. Compare your answers with the **Answer Keys** at the end of each section.
+3. Perform the **Task/Worksheet Exercises** on a computer.
+4. Have your trainer evaluate your output using the **Performance Criteria
+   Checklist**.
+
+A certificate of achievement will be awarded once all competencies are
+satisfactorily demonstrated.
+
+---
+
+## LIST OF LEARNING OUTCOMES
+
+| LO No. | Learning Outcome |
+|--------|------------------|
+| **LO1** | Apply prompt structure and role-based prompting |
+| **LO2** | Use advanced techniques (few-shot & chain-of-thought) |
+| **LO3** | Create reusable prompt templates with structured output |
+
+---
+
+## LEARNING OUTCOME SUMMARY — UNIT OF COMPETENCY 3 (UC3)
+
+**UNIT OF COMPETENCY:** Apply Prompt Engineering Techniques
+**MODULE TITLE:** Prompt Engineering Mastery
+
+**LEARNING OUTCOMES:**
+Upon completion of this module, the learner must be able to:
+
+1. Apply prompt structure and role-based (persona) prompting.
+2. Use advanced techniques such as few-shot examples and chain-of-thought.
+3. Create reusable prompt templates that produce structured output.
+
+**ASSESSMENT CRITERIA:**
+
+1. Prompts are structured with clear instruction, context, and format.
+2. A role/persona is correctly assigned to guide AI behavior.
+3. Few-shot examples are used to improve output consistency.
+4. Chain-of-thought prompting is applied to reasoning tasks.
+5. A reusable prompt template with structured output is produced.
+
+**CONDITIONS:** The learner must be provided with the following:
+- Computer/laptop with internet access
+- Access to a generative AI tool
+- Worksheets and writing materials
+
+**ASSESSMENT METHOD:**
+- Written test
+- Demonstration with oral questioning
+- Portfolio of completed prompts and templates
+
+---
+
+# LEARNING OUTCOME 1: APPLY PROMPT STRUCTURE & ROLE-BASED PROMPTING
+
+### Information Sheet 1.1
+
+**The anatomy of a strong prompt:**
+
+| Element | Purpose | Example |
+|---------|---------|---------|
+| **Role** | Tells AI who to act as | "Act as a career coach…" |
+| **Instruction** | The task | "…review this resume…" |
+| **Context** | Background details | "…for an entry-level IT job…" |
+| **Format** | How to answer | "…list 5 bullet improvements." |
+
+**Role / Persona prompting** sets the tone, expertise, and style of the answer.
+Compare:
+> ❌ "Explain databases."
+> ✅ "Act as a patient teacher explaining databases to a 12-year-old using a
+> library analogy."
+
+---
+
+### 📝 Worksheet 1.1 — Structure & Roles
+
+**Exercise A — Identify the Elements**
+Break this prompt into its four parts:
+> "Act as a nutritionist. Create a one-day meal plan for a busy student on a
+> budget. Present it as a table with breakfast, lunch, and dinner."
+
+| Element | Your Answer |
+|---------|-------------|
+| Role | _______________ |
+| Instruction | _______________ |
+| Context | _______________ |
+| Format | _______________ |
+
+**Exercise B — Add a Role**
+Rewrite this weak prompt by adding a role and a format:
+> Weak: "Tell me about climate change."
+
+```
+Improved: __________________________________________________
+___________________________________________________________
+```
+
+**Exercise C — Build From Scratch**
+Write a complete 4-element prompt that asks the AI to help plan a small birthday
+party. Run it and note whether the output improved with structure.
+
+```
+Your Prompt: _______________________________________________
+___________________________________________________________
+
+Did structure improve the result? (Yes/No + why): __________
+```
+
+---
+
+### ✅ Self-Check 1.1
+
+1. List the four elements of a strong prompt.
+2. What does role/persona prompting control?
+3. Give an example of a role you could assign for a coding question.
+
+**Answer Key 1.1**
+1. Role, Instruction, Context, Format.
+2. The tone, expertise, and style of the answer.
+3. *(e.g.,)* "Act as a senior software engineer."
+
+---
+
+# LEARNING OUTCOME 2: USE ADVANCED TECHNIQUES (FEW-SHOT & CHAIN-OF-THOUGHT)
+
+### Information Sheet 2.1
+
+**Few-shot prompting** = giving the AI a few examples so it copies the pattern.
+```
+Convert to formal tone.
+Example 1: "hey whats up" -> "Hello, how are you?"
+Example 2: "gimme that file" -> "Could you please send me that file?"
+Now convert: "wanna meet up later?"
+```
+
+**Chain-of-thought (CoT)** = asking the AI to reason step by step before
+answering. Great for math, logic, and decisions.
+> "Solve this step by step, then give the final answer: …"
+
+**Zero-shot vs Few-shot:**
+
+| Type | Description |
+|------|-------------|
+| Zero-shot | No examples given — just the instruction |
+| Few-shot | One or more examples given to guide the format |
+
+---
+
+### 📝 Worksheet 2.1 — Advanced Techniques
+
+**Exercise A — Write a Few-Shot Prompt**
+Create a few-shot prompt (with 2 examples) that turns product names into short
+marketing slogans.
+
+```
+Your Few-Shot Prompt:
+___________________________________________________________
+___________________________________________________________
+___________________________________________________________
+```
+
+**Exercise B — Apply Chain-of-Thought**
+Ask the AI this riddle two ways and compare:
+> "A bat and ball cost $1.10. The bat costs $1 more than the ball. How much is
+> the ball?"
+
+| Method | Prompt Used | AI's Final Answer |
+|--------|-------------|-------------------|
+| Without CoT | (just ask) | __________ |
+| With CoT | "Solve step by step…" | __________ |
+
+> Note which method gave the correct answer ($0.05).
+
+**Exercise C — Choose the Technique**
+For each task, write **Zero-shot**, **Few-shot**, or **Chain-of-thought**.
+
+| Task | Best Technique |
+|------|----------------|
+| Solve a multi-step math word problem | __________ |
+| Format text in a very specific style | __________ |
+| Ask a simple factual question | __________ |
+
+---
+
+### ✅ Self-Check 2.1
+
+1. What is few-shot prompting?
+2. When is chain-of-thought most useful?
+3. What is the difference between zero-shot and few-shot?
+
+**Answer Key 2.1**
+1. Giving the AI examples so it follows the pattern.
+2. For reasoning tasks (math, logic, decisions).
+3. Zero-shot gives no examples; few-shot provides examples to guide output.
+
+---
+
+# LEARNING OUTCOME 3: CREATE REUSABLE PROMPT TEMPLATES WITH STRUCTURED OUTPUT
+
+### Information Sheet 3.1
+
+**A prompt template** uses **placeholders** (variables) so the same prompt can be
+reused with different inputs.
+```
+Act as a [ROLE].
+Write a [LENGTH] [DOCUMENT TYPE] about [TOPIC]
+for [AUDIENCE]. Format the answer as [FORMAT].
+```
+
+**Structured output** = telling the AI to return a fixed format such as a table,
+a list, or JSON. This makes the output predictable and easy to reuse in
+automation (links to UC2).
+
+**Example asking for JSON:**
+```
+Return the answer as JSON with keys: title, summary, tags.
+```
+
+---
+
+### 📝 Worksheet 3.1 — Templates & Structured Output
+
+**Exercise A — Fill the Template**
+Use the template above to write a real prompt for *a short blog post about
+healthy study habits for college students, as a bullet list.*
+
+```
+Your Filled Prompt:
+___________________________________________________________
+___________________________________________________________
+```
+
+**Exercise B — Request Structured Output**
+Ask the AI to describe three fruits and **return the result as a table** with
+columns: Name, Color, Vitamin. Paste the output.
+
+```
+___________________________________________________________
+___________________________________________________________
+```
+
+**Exercise C — Create Your Own Template**
+Design a reusable template (with at least 3 placeholders) for a task you do
+often. List the placeholders.
+
+```
+Template: __________________________________________________
+___________________________________________________________
+
+Placeholders: ______________________________________________
+```
+
+---
+
+### ✅ Self-Check 3.1
+
+1. What is a placeholder in a prompt template?
+2. Why is structured output useful for automation?
+3. Name two structured output formats.
+
+**Answer Key 3.1**
+1. A variable that is replaced with different inputs each time.
+2. It is predictable and easy for other systems to read/reuse.
+3. Table, list, JSON (any two).
+
+---
+
+## PERFORMANCE CRITERIA CHECKLIST (UC3)
+
+To be completed by the **Trainer/Assessor**.
+
+| The learner is able to… | Yes | No |
+|--------------------------|-----|----|
+| Structure a prompt with role, instruction, context, format | ☐ | ☐ |
+| Apply role/persona prompting effectively | ☐ | ☐ |
+| Write a working few-shot prompt | ☐ | ☐ |
+| Apply chain-of-thought to a reasoning task | ☐ | ☐ |
+| Create a reusable prompt template with placeholders | ☐ | ☐ |
+| Request and obtain structured output | ☐ | ☐ |
+
+**Overall Result:** ☐ Competent &nbsp;&nbsp; ☐ Not Yet Competent
+
+**Trainer's Feedback:**
+```
+___________________________________________________________
+```
+
+**Learner's Signature:** ______________  **Date:** __________
+**Trainer's Signature:** ______________  **Date:** __________
+
+---
+
+*End of Unit of Competency 3 (UC3) — Apply Prompt Engineering Techniques*
